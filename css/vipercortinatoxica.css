@@ -121,11 +121,11 @@ section .cortina-toxica {
   height: 1000px;
   margin-left: auto;
   margin-right: auto;
-  border: solid 3px green;
+  border: solid green 3px;
 }
 section .cortina-toxica .img-cortina-toxica {
   width: 200px;
-  border: solid 3px green;
+  border: solid green 3px;
 }
 section .cortina-toxica .div-img {
   margin-top: 30px;
@@ -135,7 +135,7 @@ section .cortina-toxica .div-img {
 section h2 {
   margin-top: 20px;
   font-family: "Times New Roman", Times, serif;
-  color: rgb(249, 255, 255);
+  color: aliceblue;
   text-align: center;
 }
 
@@ -151,7 +151,7 @@ section h2 {
   margin-top: auto;
   margin-bottom: auto;
   text-align: center;
-  border: green 3px solid;
+  border: solid green 3px;
 }
 
 footer .div-footer {

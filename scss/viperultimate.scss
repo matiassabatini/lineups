@@ -1,3 +1,5 @@
+@import"variables";
+
 *{
     margin:0;
     padding: 0%;
@@ -31,10 +33,10 @@ body{
 
  .viperpag{
     margin-top: 20px;
-    background-color:rgba(0, 0, 0, 0.185) ;
+    background-color:$color-box ;
     width: 90%;
     height:100px;
-    border: solid green 3px;
+    border:$border-viper;
     margin-left: auto;
     margin-right: auto;
    
@@ -134,16 +136,16 @@ nav{
  section{
      .ultimate{
         margin-top: 50px;
-        background-color:rgba(0, 0, 0, 0.185) ;
+        background-color:$color-box;
         width: 90%;
         height: 1000px;
         margin-left: auto;
         margin-right: auto;
-        border:solid 3px green;
+        border:$border-viper;
         
         .img-ultimate{
             width: 200px;
-            border:solid 3px green;
+            border:$border-viper;
         
         }
 
@@ -156,8 +158,8 @@ nav{
  section{
      h2{
         margin-top: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        color: rgb(249, 255, 255);
+        font-family:$tipo-letra;
+        color:$color-letra;
         text-align: center;
      }
  }
@@ -175,14 +177,14 @@ nav{
          margin-top: auto;
          margin-bottom: auto;
          text-align: center;
-         border: green 3px solid;
+         border:$border-viper;
      }
  }
 
 
  footer{
     .div-footer{
-        background-color:rgba(0, 0, 0, 0.185);
+        background-color:$color-box;
         width: 85%;
         margin-left: auto;
         margin-right: auto;

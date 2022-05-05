@@ -1,4 +1,4 @@
-
+@import"variables";
 
 
 
@@ -37,13 +37,13 @@ body{
 
 section{
     .div-contacto{
-        background-color:rgba(0, 0, 0, 0.185) ;
+        background-color: $color-box ;
         width: 85%;
         height: 1000px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
-        border: solid 3px black;
+        border:$border-black;
         
         .contenedor-bosstr1{
             margin-top: 20px;
@@ -56,14 +56,67 @@ section{
 }
 
 
+section{
+   
+    h1{
+        font-family:$tipo-letra;
+        text-align: center;
+         color:$color-letra;
+        background-color:$color-box ;
+        border:$border-black;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
 
 
 
+}
+ p{
+     font-family:$tipo-letra;
+    text-align: center;
+    color:$color-letra;
+   background-color:$color-box ;
+   border:$border-black;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+ }
+}
 
+textarea{
+    width:100%;
+    border:$border-black;
+    
+}
+h5{
+    font-family:$tipo-letra;
+    text-align: center;
+    color:$color-letra;
+   background-color:$color-box ;
+   border:$border-black;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}
+
+h4{
+    font-family:$tipo-letra;
+    text-align: center;
+    color:$color-letra;
+   background-color:$color-box;
+   border:$border-black;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width:100%;
+}
 
 footer{
     .div-footer{
-        background-color:rgba(0, 0, 0, 0.185);
+        background-color:$color-box;
         width: 85%;
         margin-left: auto;
         margin-right: auto;

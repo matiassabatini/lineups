@@ -1,3 +1,6 @@
+@import"variables";
+
+
 *{
     margin:0;
     padding: 0%;
@@ -32,13 +35,13 @@ body{
 
 
  .section-contenedor{
-    background-color:rgba(0, 0, 0, 0.185) ;
+    background-color:$color-box ;
     margin-left: auto;
     margin-right: auto;
     width:80%;
     height: 950px;
     margin-top: 30px;
-    border: solid 8px rgb(0, 0, 0);
+    border:$border-black;
     
 
     .boostrap-contenedor{
@@ -47,26 +50,26 @@ body{
        margin-right: auto;
        width: 85%;
        height: auto;
-       border-style: solid 8px black;
+       border-style:$border-black;
 
      }
      h1{ 
-        font-family: 'Times New Roman', Times, serif;
+        font-family:$tipo-letra;
         margin-bottom: 20px;
         margin-top: 20px;
         background-color: rgba(53, 53, 56, 0.966);
         width: max-content 10px;
         height: auto;
-        color: rgb(249, 255, 255);
+        color:$color-letra;
         text-align: center;
-        border:solid 5px rgb(0, 0, 0)
+        border:$border-black;
 
     }
       }
 
       footer{
         .div-footer{
-            background-color:rgba(0, 0, 0, 0.185);
+            background-color:$color-box;
             width: 85%;
             margin-left: auto;
             margin-right: auto;

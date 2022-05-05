@@ -383,7 +383,7 @@ section .section-contenedor {
   width: 80%;
   height: 900px;
   margin-top: 30px;
-  border: solid 8px rgb(0, 0, 0);
+  border: 3px black solid;
 }
 section .section-contenedor .boostrap-contenedor {
   margin-top: 5px;
@@ -391,7 +391,7 @@ section .section-contenedor .boostrap-contenedor {
   margin-right: auto;
   width: 85%;
   height: auto;
-  border-style: solid 8px black;
+  border-style: 3px black solid;
 }
 section .section-contenedor .boostrap-contenedor h1 {
   font-family: "Times New Roman", Times, serif;
@@ -400,16 +400,16 @@ section .section-contenedor .boostrap-contenedor h1 {
   background-color: rgba(53, 53, 56, 0.966);
   width: max-content 10px;
   height: auto;
-  color: rgb(249, 255, 255);
+  color: aliceblue;
   text-align: center;
-  border: solid 5px rgb(0, 0, 0);
+  border: 3px black solid;
 }
 section .section-contenedor .boostrap-contenedor p {
   text-align: center;
   margin-top: 20px;
-  border: solid 5px rgb(0, 0, 0);
+  border: 3px black solid;
   font-family: "Times New Roman", Times, serif;
-  color: rgb(249, 255, 255);
+  color: aliceblue;
 }
 
 footer .div-footer {
