@@ -19,6 +19,8 @@ body{
     border-radius: 100%;
     width: auto;
 }
+ 
+    
 
 @keyframes body{
     0% {
@@ -134,8 +136,48 @@ nav{
         background-color: green;
     }
  }
+     
+ @media (max-width:580px){
+    .viperpag{
+        margin-top: 10px;
+        width:99%;
+        height:70px;
+    }
 
+    nav{
+       .nav-logo{
+           margin-top: 15px;
+           width: 40px;
+           height: 40px;
+           }
+       .img-logo{
+           width: 40px;
+           height: 40px;
+       } 
+       }
 
+       .ul-nav{
+        list-style: none;
+        display: flex;
+    
+        .li-nav{
+         margin-top:10px;   
+         margin-left: 10px;
+         width: 50px;
+         height: 50px;
+         border-radius: 100%;
+    
+            .img-nav-li{ 
+                text-align: center;
+                width: width 50px;
+                height: 50px;
+    
+            }
+    
+        }
+        
+    }
+     }
  .jettpag{
     margin-top: 20px;
     background-color:$color-box ;
@@ -238,7 +280,47 @@ nav{
     }
  }
 
+ @media (max-width:580px){
+    .jettpag{
+        margin-top: 10px;
+        width:99%;
+        height:70px;
+    }
 
+    nav{
+       .jett-nav-logo{
+           margin-top: 15px;
+           width: 40px;
+           height: 40px;
+           }
+       .jett-img-logo{
+           width: 40px;
+           height: 40px;
+       } 
+       }
+
+       .jett-ul-nav{
+        list-style: none;
+        display: flex;
+    
+        .jett-li-nav{
+         margin-top:10px;   
+         margin-left: 10px;
+         width: 50px;
+         height: 50px;
+         border-radius: 100%;
+    
+            .jett-img-nav-li{ 
+                text-align: center;
+                width: width 50px;
+                height: 50px;
+    
+            }
+    
+        }
+        
+    }
+     }
 
  .cypag{
     margin-top: 20px;
@@ -342,6 +424,47 @@ nav{
  }
 
 
+ @media (max-width:580px){
+    .cypag{
+        margin-top: 10px;
+        width:99%;
+        height:70px;
+    }
+
+    nav{
+       .cy-nav-logo{
+           margin-top: 15px;
+           width: 40px;
+           height: 40px;
+           }
+       .cy-img-logo{
+           width: 40px;
+           height: 40px;
+       } 
+       }
+
+       .cy-ul-nav{
+        list-style: none;
+        display: flex;
+    
+        .cy-li-nav{
+         margin-top:10px;   
+         margin-left: 10px;
+         width: 50px;
+         height: 50px;
+         border-radius: 100%;
+    
+            .cy-img-nav-li{ 
+                text-align: center;
+                width: width 50px;
+                height: 50px;
+    
+            }
+    
+        }
+        
+    }
+     }
 
 
  .bmpag{
@@ -447,6 +570,47 @@ nav{
  }
 
  
+ @media (max-width:580px){
+    .bmpag{
+        margin-top: 10px;
+        width:99%;
+        height:70px;
+    }
+
+    nav{
+       .bm-nav-logo{
+           margin-top: 15px;
+           width: 40px;
+           height: 40px;
+           }
+       .bm-img-logo{
+           width: 40px;
+           height: 40px;
+       } 
+       }
+
+       .bm-ul-nav{
+        list-style: none;
+        display: flex;
+    
+        .bm-li-nav{
+         margin-top:10px;   
+         margin-left: 10px;
+         width: 50px;
+         height: 50px;
+         border-radius: 100%;
+    
+            .bm-img-nav-li{ 
+                text-align: center;
+                width: width 50px;
+                height: 50px;
+    
+            }
+    
+        }
+        
+    }
+     }
 
 
 
@@ -466,7 +630,6 @@ nav{
             margin-left: auto;
             margin-right: auto;
             width: 85%;
-            height: auto;
             border-style:$border-black;
             
             h1{ 
@@ -494,6 +657,33 @@ nav{
 
      }
  }
+ @media (max-width:1320px){
+    section{
+        .section-contenedor{
+            height: 700px;
+            margin-top:20px;
+        }
+    }
+}
+@media (max-width:1000px){
+    section{
+        .section-contenedor{
+            height: 550px;
+            margin-top:20px;
+        }
+    }
+}
+@media (max-width:660px){
+    section{
+        .section-contenedor{
+            height: 400px;
+            margin-top:20px;
+        }
+    }
+
+
+
+}
 
  footer{
      .div-footer{
@@ -527,4 +717,25 @@ nav{
     margin-left: 100px;
     margin-right: 100px;
 }
+ }
+
+ @media (max-width:660px){
+    footer{
+        .div-footer{
+            background-color:$color-box;
+            width: 100%;
+             }
+   
+ } }
+
+ @media (max-width:580px){
+    footer .div-footer .ul-main .img-footer {
+        width: 15px;
+        margin-top: 35px;
+      }
+      footer .li-footer {
+        margin-left: 28px;
+        margin-right: 50px;
+      }
+
  }

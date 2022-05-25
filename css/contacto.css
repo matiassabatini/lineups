@@ -30,7 +30,7 @@ body {
 section .div-contacto {
   background-color: rgba(0, 0, 0, 0.185);
   width: 85%;
-  height: 1000px;
+  height: 1020px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -116,6 +116,24 @@ footer .div-footer .ul-main .img-footer {
 footer .li-footer {
   margin-left: 100px;
   margin-right: 100px;
+}
+
+@media (max-width: 660px) {
+  footer .div-footer {
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 100%;
+  }
+}
+@media (max-width: 580px) {
+  footer .div-footer .ul-main .img-footer {
+    width: 15px;
+    margin-top: 35px;
+  }
+
+  footer .li-footer {
+    margin-left: 28px;
+    margin-right: 50px;
+  }
 }
 
 /*# sourceMappingURL=contacto.css.map */
